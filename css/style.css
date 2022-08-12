@@ -3,16 +3,24 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #fff;
+}
+
+html,
+body {
   font-family: 'Roboto Mono', monospace;
+  width: 100vw;
+  min-height: 100vh;
 }
 
 #header {
+  width: 85%;
+  height: 65px;
+  margin: 0 auto;
+  background: #fff;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 20px 80px;
-  background: #fff;
 }
 
 #header a {
@@ -48,16 +56,14 @@
 
 /* Home page */
 #hero {
+  height: 40vh;
+  width: 100%;
   background-color: #fff;
-  padding: 0 80px;
+  padding: 0 300px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  /* height: 90vh;
-  width: 100%;
-  background-size: cover;
-  background-position: top 25% right 25%; */
 }
 
 #hero h1 {
@@ -89,7 +95,7 @@
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  width: 20%;
+  width: 50%;
   will-change: transform;
 }
 
